@@ -1,1 +1,13 @@
-﻿<Properties StartupItem="iOS/ChatPower.iOS.csproj" />
+﻿<Properties StartupItem="iOS/ChatPower.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.3" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ChatPower/Views/HomePage.cs">
+    <Files>
+      <File FileName="ChatPower/ChatPower.cs" Line="18" Column="50" />
+      <File FileName="ChatPower/Views/HomePage.cs" Line="26" Column="13" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

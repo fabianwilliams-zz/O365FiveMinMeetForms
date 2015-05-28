@@ -1,6 +1,12 @@
 ﻿using System;
 
 using Xamarin.Forms;
+//using UIKit;
+#if __IOS__
+using UIContext = UIKit.UIViewController;
+#elif __ANDROID__
+using UIContext = global::Android.Content.Context;
+#endif
 
 namespace ChatPower
 {
@@ -9,17 +15,7 @@ namespace ChatPower
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new ContentPage {
-				Content = new StackLayout {
-					VerticalOptions = LayoutOptions.Center,
-					Children = {
-						new Label {
-							XAlign = TextAlignment.Center,
-							Text = "Welcome to Xamarin Forms!"
-						}
-					}
-				}
-			};
+			MainPage = new NavigationPage(new HomePage());
 		}
 
 		protected override void OnStart ()
